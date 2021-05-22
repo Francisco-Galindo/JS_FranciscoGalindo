@@ -1,0 +1,112 @@
+/*=BODY--------------------------------------------------*/
+
+body {
+	background-color: #202020;
+	font-family: monospace;
+	background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg3.wikia.nocookie.net%2F__cb20121207064811%2Fclubpenguin%2Fimages%2F6%2F6a%2FDance_club_with_new_design_puffle.png&f=1&nofb=1);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	background-color: black;
+}
+
+#creditos{
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  width: 30%;
+  background-color: black;
+}
+
+/*=FUENTES DISCO MININO----------------------------------*/
+
+h1 {
+	text-align: center;
+	color: lightgray;
+}
+
+/*=BOTÓN----------------------------------*/
+
+#btn-inicio {
+	position: absolute;
+	width: 150px;
+	left: calc(50% - 75px);
+  background-color:rgb(255, 136, 0);
+	border: 0;
+	border-radius: 5px;
+}
+
+/*=Ganador/Perdedor----------------------------------*/
+
+#ganador, #perdedor {
+	display: none;
+}
+
+#pista, #foto-minino {
+	height: 50vh;
+	width: 50vh;
+	border: 15px solid grey;
+}
+
+#foto-minino {
+	display: none;
+}
+
+/*=CUADRO----------------------------------*/
+td > div {
+	width: 100px;
+	height: 100px;
+}
+
+.grid {
+	display: grid;
+	margin-top: 4em;
+	place-content: center;
+}
+
+.renglon {
+	width: 100%;
+	height: 50%;
+}
+
+.cuadro-color {
+	width: 50%;
+	height: 100%;
+}
+
+div#yellow {
+	background-color: goldenrod;
+	float: left;
+}
+div#blue {
+	background-color: darkblue; 
+	float: left;
+}
+div#red {
+	background-color: darkred;
+	float: right;
+}
+div#green {
+	background-color: darkgreen; 
+	float: right;
+}
+
+
+/*=SELECCION--------------------------------*/
+
+.brillante {
+	filter: brightness(2);
+}
+
+.clickeable:hover {
+	cursor: pointer;
+	filter: brightness(0.75);
+}
+
+.clickeable:active {
+	filter: brightness(1.25);
+}
+
