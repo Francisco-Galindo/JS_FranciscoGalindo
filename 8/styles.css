@@ -1,3 +1,6 @@
+/* =STRUCTURE
+    --------------------------------------------- */
+
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #594f4f;
@@ -8,6 +11,8 @@ h1 {
     text-align: center;
 }
 
+/* =PANTALLA PRINCIPAL
+    --------------------------------------------- */
 #main {
     display: flex;
     width: 900px;
