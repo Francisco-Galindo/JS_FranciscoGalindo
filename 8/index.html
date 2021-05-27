@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>El Dibuja Dibujos Mil ocho mil</h1>
+    <div id="main">
+        <div id="contenedor-dibujo">
+            <canvas id="dibujo" width="500" height="500"></canvas>
+        </div>
+
+        <div id="formulario">
+            <label for="color1">Color de fondo</label>
+            <input type="color" id="color1">
+
+            <br>
+            <label id="degradado" for="color2">     
+            </label>
+            <br><br>
+
+            <label for="tipo-fondo">Tipo de fondo</label>
+            <select  id="tipo-fondo">
+                <option value="solido">Color sólido</option>
+                <option value="lineal">Degradado lineal</option>
+                <option value="radial">Degradado radial</option>
+            </select>
+
+            <br><br>
+
+            <label for="figura">Figura a dibujar</label>
+            <select  id="figura">
+                <option value="estrella">Estrella</option>
+                <option value="raton">Ratón capitalista</option>
+                <option value="fibo">El Fibo</option>
+            </select>
+        </div>
+    </div>
+    
+</body>
+</html>

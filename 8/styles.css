@@ -1,0 +1,34 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #594f4f;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    width: 900px;
+    height: 600px;
+    padding: 25px;
+    margin: auto;
+    border-radius: 2em;
+    box-sizing: border-box;
+    background-color: #547980;
+}
+
+#contenedor-dibujo {
+    width: 550px;
+    height: 550px;
+    border-radius: 2em;
+    background-color: gray;
+}
+
+#dibujo {
+    margin: 25px;
+}
+#formulario {
+    padding: 1em;
+}
